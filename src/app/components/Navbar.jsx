@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
-    // মেনু আইটেমগুলোর ডেটা একটি ভ্যারিয়েবলে ডিক্লেয়ার করা হলো
+    
     const navLinks = [
         { name: 'Home', href: '/' },
         { name: 'Shop', href: '/shop' },
@@ -15,7 +15,7 @@ const Navbar = () => {
             ]
         },
         { name: 'About us', href: '/about' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'Blogs', href: '/blogs' },
         { name: 'Developers', href: '/about/developer' },
     ];
 
